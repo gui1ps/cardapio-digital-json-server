@@ -1,12 +1,67 @@
 {
-  "projetos":[
-      {
-          "titulo":"Cardápio Digital",
-          "texto":"Este projeto apresenta um cardápio digital interativo, onde o usuário pode explorar uma ampla variedade de produtos oferecidos por um restaurante fictício. De forma simples e prática, o cliente pode selecionar seus itens preferidos e adicioná-los ao carrinho de compras. Entre as funcionalidades disponíveis estão: filtrar produtos por categoria, ajustar as quantidades desejadas, remover itens do carrinho e, ao final, simular a conclusão da compra.",
-          "url_foto":"https://i.ibb.co/mqknbvP/Captura-de-tela-2024-08-27-210609.png",
-          "url_repo":"https://github.com/gui1ps/Cardapio_Digital",
-          "url_projeto":"",
-          "destaque":1
-      }
+  "type": [
+      {"id": 1, "title": "Bebidas"},
+      {"id": 2, "title": "Refeições"},
+      {"id": 3, "title": "Sobremesas"},
+      {"id": 4, "title": "Aperitivos"}
+  ],
+  "subtype": [
+      {"id": 1, "title": "Café"},
+      {"id": 2, "title": "Chá"},
+      {"id": 3, "title": "Refrigerante"},
+      {"id": 4, "title": "Suco"},
+      {"id": 5, "title": "Sanduíche"},
+      {"id": 6, "title": "Prato Principal"},
+      {"id": 7, "title": "Salada"},
+      {"id": 8, "title": "Pizza"},
+      {"id": 9, "title": "Bolo"},
+      {"id": 10, "title": "Sorvete"},
+      {"id": 11, "title": "Doce"},
+      {"id": 12, "title": "Batata Frita"},
+      {"id": 13, "title": "Petisco"}
+  ],
+  "product": [
+      {"id": 13, "title": "Sanduíche de frango", "desc": "Sanduíche de frango grelhado com alface e tomate.", "price": 8.0, "type_id": 2, "subtype_id": 5, "img": "sanduiche_frango.jpg"},
+      {"id": 14, "title": "Sanduíche de presunto e queijo", "desc": "Sanduíche clássico de presunto e queijo, simples e delicioso.", "price": 7.0, "type_id": 2, "subtype_id": 5, "img": "sub-sanduiche-com-presunto.jpg"},
+      {"id": 15, "title": "Sanduíche vegetariano", "desc": "Sanduíche saudável com uma variedade de vegetais frescos.", "price": 8.0, "type_id": 2, "subtype_id": 5, "img": "sanduiche-vegetariano.jpg"},
+      {"id": 16, "title": "Frango grelhado com legumes", "desc": "Frango grelhado suculento servido com legumes frescos.", "price": 15.0, "type_id": 2, "subtype_id": 6, "img": "frango-com-legumes.jpg"},
+      {"id": 17, "title": "Bife à parmegiana", "desc": "Bife empanado coberto com molho de tomate e queijo derretido.", "price": 18.0, "type_id": 2, "subtype_id": 6, "img": "bife-a-parmegiana.jpg"},
+      {"id": 18, "title": "Espaguete à bolonhesa", "desc": "Massa espaguete com molho bolonhesa rico e saboroso.", "price": 12.0, "type_id": 2, "subtype_id": 6, "img": "espaguete-com-molho-a-bolonhesa.jpeg"},
+      {"id": 19, "title": "Salada César", "desc": "Clássica salada César com alface, croutons e molho especial.", "price": 7.5, "type_id": 2, "subtype_id": 7, "img": "salada_cesar.jpg"},
+      {"id": 20, "title": "Salada de frutas", "desc": "Salada fresca de frutas da estação.", "price": 6.0, "type_id": 2, "subtype_id": 7, "img": "salada-de-frutas.jpeg"},
+      {"id": 21, "title": "Salada grega", "desc": "Salada com tomate, pepino, cebola, azeitonas e queijo feta.", "price": 8.0, "type_id": 2, "subtype_id": 7, "img": "salada-grega.jpg"},
+      {"id": 22, "title": "Pizza margherita", "desc": "Pizza tradicional com molho de tomate, mussarela e manjericão.", "price": 20.0, "type_id": 2, "subtype_id": 8, "img": "pizza_marguerita.jpg"},
+      {"id": 23, "title": "Pizza de calabresa", "desc": "Pizza saborosa com calabresa e cebola.", "price": 22.0, "type_id": 2, "subtype_id": 8, "img": "pizza_calabresa.jpg"},
+      {"id": 24, "title": "Pizza quatro queijos", "desc": "Pizza com uma mistura de quatro queijos deliciosos.", "price": 24.0, "type_id": 2, "subtype_id": 8, "img": "pizza-4-queijos.jpg"},
+      
+      {"id": 1, "title": "Café expresso", "desc": "Café puro e encorpado, perfeito para começar o dia.", "price": 2.5, "type_id": 1, "subtype_id": 1, "img": "black-coffee-with-milk-desk-cafe-shop.jpg"},
+      {"id": 2, "title": "Café com leite", "desc": "Mistura equilibrada de café e leite vaporizado.", "price": 3.0, "type_id": 1, "subtype_id": 1, "img": "cafe_leite.jpg"},
+      {"id": 3, "title": "Cappuccino", "desc": "Espresso combinado com leite vaporizado e uma camada generosa de espuma.", "price": 4.0, "type_id": 1, "subtype_id": 1, "img": "capuccino.jpg"},
+      {"id": 4, "title": "Chá verde", "desc": "Chá verde fresco e revigorante, cheio de antioxidantes.", "price": 2.0, "type_id": 1, "subtype_id": 2, "img": "cha-verde.jpg"},
+      {"id": 5, "title": "Chá preto", "desc": "Chá preto forte e encorpado, perfeito para uma tarde relaxante.", "price": 2.0, "type_id": 1, "subtype_id": 2, "img": "cha_preto.jpg"},
+      {"id": 6, "title": "Chá de camomila", "desc": "Chá de camomila suave, ideal para relaxar antes de dormir.", "price": 2.5, "type_id": 1, "subtype_id": 2, "img": "cha-de-camomila.jpg"},
+      {"id": 7, "title": "Refrigerante de cola", "desc": "Refrigerante clássico de cola, servido gelado.", "price": 3.0, "type_id": 1, "subtype_id": 3, "img": "cola.jpg"},
+      {"id": 8, "title": "Refrigerante de limão", "desc": "Refrigerante refrescante de limão, perfeito para um dia quente.", "price": 3.0, "type_id": 1, "subtype_id": 3, "img": "refrigerante_de_limao.jpg"},
+      {"id": 9, "title": "Refrigerante de laranja", "desc": "Refrigerante cítrico de laranja, cheio de sabor.", "price": 3.0, "type_id": 1, "subtype_id": 3, "img": "refri_laranja.jpg"},
+      {"id": 10, "title": "Suco de laranja", "desc": "Suco de laranja natural, cheio de vitamina C.", "price": 3.5, "type_id": 1, "subtype_id": 4, "img": "suco_laranja.jpg"},
+      {"id": 11, "title": "Suco de maçã", "desc": "Suco de maçã doce e refrescante.", "price": 3.5, "type_id": 1, "subtype_id": 4, "img": "suco-de-maca.jpg"},
+      {"id": 12, "title": "Suco de uva", "desc": "Suco de uva roxa, sabor intenso e natural.", "price": 4.0, "type_id": 1, "subtype_id": 4, "img": "suco-de-uva.jpg"},
+
+      {"id": 34, "title": "Batata frita pequena", "desc": "Porção pequena de batata frita crocante e salgada.", "price": 5.0, "type_id": 4, "subtype_id": 12, "img": "batata_pequena.jpg"},
+      {"id": 35, "title": "Batata frita grande", "desc": "Porção grande de batata frita, perfeita para compartilhar.", "price": 8.0, "type_id": 4, "subtype_id": 12, "img": "batata-frita-grande.jpg"},
+      {"id": 36, "title": "Batata frita com queijo", "desc": "Batata frita coberta com queijo derretido.", "price": 6.5, "type_id": 4, "subtype_id": 12, "img": "batata_grande_queijo.jpg"},
+      {"id": 37, "title": "Coxinha", "desc": "Salgado de frango desfiado envolto em massa crocante.", "price": 3.0, "type_id": 4, "subtype_id": 13, "img": "coxinha.jpg"},
+      {"id": 38, "title": "Kibe", "desc": "Salgado de carne moída e trigo, frito até ficar crocante.", "price": 3.0, "type_id": 4, "subtype_id": 13, "img": "kibe.jpg"},
+      {"id": 39, "title": "Bolinha de queijo", "desc": "Bolinha de queijo derretido empanada e frita.", "price": 2.5, "type_id": 4, "subtype_id": 13, "img": "Bolinha-de-queijo.jpg"},
+      
+      {"id": 25, "title": "Bolo de chocolate", "desc": "Bolo de chocolate rico e úmido, perfeito para os amantes de chocolate.", "price": 5.0, "type_id": 3, "subtype_id": 9, "img": "bolo-chocolate.png"},
+      {"id": 26, "title": "Bolo de cenoura", "desc": "Bolo de cenoura macio com cobertura de chocolate.", "price": 5.0, "type_id": 3, "subtype_id": 9, "img": "bolo_cenoura.png"},
+      {"id": 27, "title": "Bolo de laranja", "desc": "Bolo de laranja fofo e aromático.", "price": 5.0, "type_id": 3, "subtype_id": 9, "img": "bolo-de-laranja.jpg"},
+      {"id": 28, "title": "Sorvete de baunilha", "desc": "Sorvete cremoso de baunilha, um clássico.", "price": 4.0, "type_id": 3, "subtype_id": 10, "img": "sorvete_baunilha.jpg"},
+      {"id": 29, "title": "Sorvete de chocolate", "desc": "Sorvete de chocolate rico e indulgente.", "price": 4.0, "type_id": 3, "subtype_id": 10, "img": "sorvete-de-chocolate.jpg"},
+      {"id": 30, "title": "Sorvete de morango", "desc": "Sorvete refrescante de morango, feito com frutas frescas.", "price": 4.0, "type_id": 3, "subtype_id": 10, "img": "sorvete_morango.jpg"},
+      {"id": 31, "title": "Brigadeiro", "desc": "Doce brasileiro feito de leite condensado, chocolate e granulado.", "price": 1.5, "type_id": 3, "subtype_id": 11, "img": "brigadeiro.jpg"},
+      {"id": 32, "title": "Beijinho", "desc": "Doce brasileiro de leite condensado e coco, coberto com açúcar.", "price": 1.5, "type_id": 3, "subtype_id": 11, "img": "Beijinho.jpg"},
+      {"id": 33, "title": "Quindim", "desc": "Doce de coco e gema de ovo, com uma textura irresistível.", "price": 2.0, "type_id": 3, "subtype_id": 11, "img": "quindin.png"}
   ]
 }
