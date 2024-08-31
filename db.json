@@ -63,5 +63,5 @@
       {"id": 31, "title": "Brigadeiro", "desc": "Doce brasileiro feito de leite condensado, chocolate e granulado.", "price": 1.5, "type_id": 3, "subtype_id": 11, "img": "brigadeiro.jpg"},
       {"id": 32, "title": "Beijinho", "desc": "Doce brasileiro de leite condensado e coco, coberto com açúcar.", "price": 1.5, "type_id": 3, "subtype_id": 11, "img": "Beijinho.jpg"},
       {"id": 33, "title": "Quindim", "desc": "Doce de coco e gema de ovo, com uma textura irresistível.", "price": 2.0, "type_id": 3, "subtype_id": 11, "img": "quindin.png"}
-  ]
+    ]
 }
